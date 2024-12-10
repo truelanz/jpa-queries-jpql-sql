@@ -25,6 +25,7 @@ public class Uri2737Application implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
+		//SQL
 		List<LawyerMinProjection> list = repository.search1();
 		List<LawyerMinDTO> result1 = list.stream().map(x -> new LawyerMinDTO(x)).collect(Collectors.toList());
 
@@ -32,6 +33,5 @@ public class Uri2737Application implements CommandLineRunner {
 		for(LawyerMinDTO obj : result1) {
 			System.out.println(obj);
 		}
-
 	}
 }

@@ -3,6 +3,7 @@ package com.devsuperior.bee2990.entities;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -15,11 +16,11 @@ import javax.persistence.Table;
 public class Projeto {
 
 	@Id
-	private Long pnumero;
+	private Long dnumero;
 	private String pnome;
 	
 	@ManyToOne
-	@JoinColumn(name = "dnumero")
+	@JoinColumn(name = "dnumero", insertable = false, updatable = false)
 	private Departamento departamento;
 	
 	@ManyToMany(mappedBy = "projetosOndeTrabalha")
@@ -29,11 +30,11 @@ public class Projeto {
 	}
 
 	public Long getPnumero() {
-		return pnumero;
+		return dnumero;
 	}
 
 	public void setPnumero(Long pnumero) {
-		this.pnumero = pnumero;
+		this.dnumero = pnumero;
 	}
 
 	public String getPnome() {
