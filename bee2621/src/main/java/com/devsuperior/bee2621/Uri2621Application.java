@@ -1,11 +1,11 @@
-package com.devsuperior.uri2621;
+package com.devsuperior.bee2621;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.devsuperior.uri2621.repositories.ProductRepository;
+import com.devsuperior.bee2621.repositories.ProductRepository;
 
 @SpringBootApplication
 public class Uri2621Application implements CommandLineRunner {

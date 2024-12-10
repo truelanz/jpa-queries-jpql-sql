@@ -1,11 +1,11 @@
-package com.devsuperior.uri2990;
+package com.devsuperior.bee2990;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.devsuperior.uri2990.repositories.EmpregadoRepository;
+import com.devsuperior.bee2990.repositories.EmpregadoRepository;
 
 @SpringBootApplication
 public class Uri2990Application implements CommandLineRunner {

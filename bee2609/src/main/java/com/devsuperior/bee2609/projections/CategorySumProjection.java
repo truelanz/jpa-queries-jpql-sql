@@ -1,4 +1,4 @@
-package com.devsuperior.uri2609.projections;
+package com.devsuperior.bee2609.projections;
 
 public interface CategorySumProjection {
 

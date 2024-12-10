@@ -1,5 +1,6 @@
-package com.devsuperior.uri2737.entities;
+package com.devsuperior.bee2737.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -11,6 +12,7 @@ public class Lawyer {
 	@Id
 	private Long register;
 	private String name;
+	@Column(name = "customers_number")
 	private Integer customersNumber;
 	
 	public Lawyer() {

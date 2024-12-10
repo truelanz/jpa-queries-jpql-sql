@@ -26,7 +26,7 @@ public class Bee2602Application implements CommandLineRunner {
 	public void run(String... args) {
 
 		//SQL
-		System.out.println("\nSQL Query");
+		System.out.println("\n---SQL Query---");
 		List<CustomerMinProjection> list = repository.search1("rs");
 		List<CustomerMinDTO> result1 = list.stream().map(x -> new CustomerMinDTO(x)).collect(Collectors.toList());
 
@@ -35,7 +35,7 @@ public class Bee2602Application implements CommandLineRunner {
 		}
 
 		//JPQL
-		System.out.println("\nJPQL Query");
+		System.out.println("\n---JPQL Query---");
 		List<CustomerMinDTO> result2 = repository.search2("rs");
 
 		for(CustomerMinDTO obj : result2) {

@@ -1,4 +1,4 @@
-package com.devsuperior.uri2737.projections;
+package com.devsuperior.bee2737.projections;
 
 public interface LawyerMinProjection {
 

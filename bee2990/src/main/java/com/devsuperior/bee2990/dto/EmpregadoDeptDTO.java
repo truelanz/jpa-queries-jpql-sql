@@ -1,6 +1,6 @@
-package com.devsuperior.uri2990.dto;
+package com.devsuperior.bee2990.dto;
 
-import com.devsuperior.uri2990.projections.EmpregadoDeptProjection;
+import com.devsuperior.bee2990.projections.EmpregadoDeptProjection;
 
 public class EmpregadoDeptDTO {
 

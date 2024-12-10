@@ -1,4 +1,4 @@
-package com.devsuperior.uri2990.projections;
+package com.devsuperior.bee2990.projections;
 
 public interface EmpregadoDeptProjection {
 

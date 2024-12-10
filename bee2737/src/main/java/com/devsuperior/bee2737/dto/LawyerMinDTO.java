@@ -1,6 +1,6 @@
-package com.devsuperior.uri2737.dto;
+package com.devsuperior.bee2737.dto;
 
-import com.devsuperior.uri2737.projections.LawyerMinProjection;
+import com.devsuperior.bee2737.projections.LawyerMinProjection;
 
 public class LawyerMinDTO {
 

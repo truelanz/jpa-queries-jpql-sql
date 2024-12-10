@@ -1,4 +1,4 @@
-package com.devsuperior.uri2609.entities;
+package com.devsuperior.bee2609.entities;
 
 import java.math.BigDecimal;
 

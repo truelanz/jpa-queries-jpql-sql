@@ -1,10 +1,6 @@
-package com.devsuperior.uri2611.entities;
+package com.devsuperior.bee2611.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "movies")

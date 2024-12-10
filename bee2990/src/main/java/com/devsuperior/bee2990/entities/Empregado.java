@@ -1,10 +1,11 @@
-package com.devsuperior.uri2990.entities;
+package com.devsuperior.bee2990.entities;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -21,6 +22,7 @@ public class Empregado {
 	@Id
 	private String cpf;
 	private String enome;
+	@Column(name = "salario")
 	private Double salary;
 	
 	@ManyToOne

@@ -1,4 +1,4 @@
-package com.devsuperior.uri2990.entities;
+package com.devsuperior.bee2990.entities;
 
 import java.util.HashSet;
 import java.util.Set;

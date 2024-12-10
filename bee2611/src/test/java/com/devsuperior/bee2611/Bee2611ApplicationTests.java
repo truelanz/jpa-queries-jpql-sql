@@ -1,10 +1,10 @@
-package com.devsuperior.uri2602;
+package com.devsuperior.bee2611;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Uri2602ApplicationTests {
+class Bee2611ApplicationTests {
 
 	@Test
 	void contextLoads() {

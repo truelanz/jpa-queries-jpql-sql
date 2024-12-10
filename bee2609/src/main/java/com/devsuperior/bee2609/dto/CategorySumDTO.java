@@ -1,6 +1,6 @@
-package com.devsuperior.uri2609.dto;
+package com.devsuperior.bee2609.dto;
 
-import com.devsuperior.uri2609.projections.CategorySumProjection;
+import com.devsuperior.bee2609.projections.CategorySumProjection;
 
 public class CategorySumDTO {
 
